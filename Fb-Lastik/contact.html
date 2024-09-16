@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lastikpark</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <div class="header">
+      <header class="header-wrapper">
+        <a href="#" class="logo">
+          <img class="lplogo1" src="images/lplogo.png" alt="" />
+        </a>
+        <nav class="navbar">
+          <a href="index.html">Ana Sayfa</a>
+          <a href="about.html">Hakkında</a>
+          <a href="gallery.html">Galeri</a>
+          <a href="contact.html" class="active">İletişim</a>
+        </nav>
+
+        <div class="lp-logo">
+          <img class="lplogo2" src="images/lplogo.png" alt="lp-logo" />
+        </div>
+      </header>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- SIDEBAR START -->
+    <div class="menu-btn"  id="menuTusu" onclick="leftSidebar()">
+      <i class="bi bi-justify"></i>
+    </div>
+    <div class="side-bar" id="yanMenu" >
+      <header>
+        <div class="sidebar-close-btn">
+          <i class="bi bi-x" onclick="closeNav()"></i>
+        </div>
+        <img src="images/fb-logo.png" alt="">
+        <h1>F&B LASTİK</h1>
+      </header>
+
+      <div class="side-bar-menu" id="kapat"">
+        <div class="side-bar-menu-item">
+          <a href="index.html">
+            <i class="bi bi-house-fill"></i>Ana Sayfa</a>
+          </div>
+        <div class="side-bar-menu-item">
+          <a href="about.html">
+            <i class="bi bi-info-circle-fill"></i>Hakkında</a>
+          </div>
+        <div class="side-bar-menu-item">
+          <a href="gallery.html">
+            <i class="bi bi-images"></i>Galeri</a>
+          </div>
+        <div class="side-bar-menu-item">
+          <a href="contact.html">
+          <i class="bi bi-telephone-fill"></i>İletişim</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIDEBAR END -->
+
+    <!-- Contact Content Start -->
+
+    <div class="contact">
+      <div class="contact-wrapper">
+        <div class="contact-title">
+          <h3 class="title">İletişim Bilgileri</h3>
+        </div>
+        <div class="contact-infos">
+          <div class="contact-info-container">
+            <ul class="contact-info-titles">
+              <li><a class="contact-info-title" href="tel:+902123460708">Sabit</a></li>
+              <li class="contact-info-title">Faks</li>
+              <li><a class="contact-info-title" href="tel:+905325817195">GSM-1</a></li>
+              <li><a class="contact-info-title" href="tel:+905326408082">GSM-2</a></li>
+              <li><a class="contact-info-title" href="mailto:info@fblastik.com">E-mail</a></li>
+            </ul>
+            <div class="contact-address">
+              <ul class="address-list">
+                <li><a class="contact-address-list" href="tel:+902123460708">: 0 (212) 346 07 08</a></li>
+                <li a class="contact-address-list">: 0 (212) 346 07 95</li>
+                <li><a class="contact-address-list" href="tel:+905325817195">: 0 (532) 581 71 95</a></li>
+                <li><a class="contact-address-list" href="tel:+905326408082">: 0 (532) 640 80 82</a></li>
+                <li><a class="contact-address-list" href="mailto:info@fblastik.com">: info@fblastik.com</a></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="social-icons">
+            <a target="_blank" href="https://wa.me/905325817195">
+              <i class="bi bi-whatsapp icon"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/fb.lastik.maslak/">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100063539323867&locale=tr_TR">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a target="_blank" href="https://fb.sahibinden.com/">
+              <img class="shbnd-icon" src="images/sahibinden-bw.jpg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="location">
+        <div class="location-container">
+          <iframe class="maps"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187.86358278840837!2d29.020958450525303!3d41.11668047864092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab5551c7df325%3A0xe696ea595ad2ed79!2sFb%20Lastik-PERFORMANS!5e0!3m2!1str!2str!4v1713990618013!5m2!1str!2str"
+          width="800"
+          height="550"
+          style="border: 0 "
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="address">
+          <p>Adres : Atatürk Oto Sanayi Sitesi 1.Kısım A Blok 44.Sk. No:56 Sarıyer/İstanbul
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="social-icons2">
+        <a target="_blank" href="https://wa.me/905325817195">
+          <i class="bi bi-whatsapp icon"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/fb.lastik.maslak/">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100063539323867&locale=tr_TR">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a target="_blank" href="https://fb.sahibinden.com/">
+          <img class="shbnd-icon2" src="images/sahibinden-bw.jpg" alt="">
+        </a>
+      </div>
+    </div>
+
+    <!-- Contact Content End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
